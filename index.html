@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Gallery with JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <script src="script.js" defer></script>
+
+  </head>
+  <body>
+   
+    <section class="search">
+      <img src="images\img1.jpg" alt="search-img">
+      <div class="content">
+        <h1>Image Gallery with JavaScript</h1>
+      </div>
+    </section>
+    <section class="gallery">
+      <ul class="images">
+        <li class="card">
+            <img src="images/img2.jpg"alt="Image 1"data-name="View">
+            <div class="details">
+                <div class="photographer">
+                    <i class="uil uil-camera"></i>
+                    <span>View</span>
+                </div>
+            </div>
+        </li>
+        
+        <li class="card">
+            <img src="images/img3.jpg" alt="Image 2" data-name="Road">
+            <div class="details">
+                <div class="photographer">
+                    <i class="uil uil-camera"></i>
+                    <span>Road</span>
+                </div>
+            </div>
+        </li>
+        <li class="card">
+            <img src="images/img4.jpg" alt="Image 3" data-name="Metro">
+            <div class="details">
+                <div class="photographer">
+                    <i class="uil uil-camera"></i>
+                    <span>Metro
+                    </span>
+                </div>
+            </div>
+        </li>
+        <li class="card">
+            <img src="images/img5.jpg" alt="Image 4" data-name="Flower">
+            <div class="details">
+                <div class="photographer">
+                    <i class="uil uil-camera"></i>
+                    <span>Flower</span>
+                </div>
+            </div>
+        </li>
+        <li class="card">
+            <img src="images/img6.jpg" alt="Image 5" data-name="Game">
+            <div class="details">
+                <div class="photographer">
+                    <i class="uil uil-camera"></i>
+                    <span>Check
+                    </span>
+                </div>
+            </div>
+        </li>
+        <li class="card">
+            <img src="images/img7.jpg" alt="Image 6" data-name="Background">
+            <div class="details">
+                <div class="photographer">
+                    <i class="uil uil-camera"></i>
+                    <span>background</span>
+                </div>
+            </div>
+        </li>
+        <li class="card">
+            <img src="images/img8.jpg" alt="Image 7" data-name="Speed">
+            <div class="details">
+                <div class="photographer">
+                    <i class="uil uil-camera"></i>
+                    <span>Speed</span>
+                </div>
+            </div>
+        </li>
+        <li class="card">
+          <img src="images/img9.jpg" alt="Image 8" data-name="Cheers">
+          <div class="details">
+              <div class="photographer">
+                  <i class="uil uil-camera"></i>
+                  <span>Cheers</span>
+              </div>
+          </div>
+      </li>
+      <li class="card">
+        <img src="images/img10.jpg" alt="Image 9" data-name="Food">
+        <div class="details">
+            <div class="photographer">
+                <i class="uil uil-camera"></i>
+                <span>Food</span>
+            </div>
+        </div>
+    </li>
+        <li class="card">
+            <img src="images/img11.jpg" alt="Image 10" data-name="Time">
+            <div class="details">
+                <div class="photographer">
+                    <i class="uil uil-camera"></i>
+                    <span>Time
+                    </span>
+                </div>
+            </div>
+        </li>
+        <li class="card">
+            <img src="images/img12.jpg" alt="Image 11" data-name="Nature">
+            <div class="details">
+                <div class="photographer">
+                    <i class="uil uil-camera"></i>
+                    <span>Nature</span>
+                </div>
+                
+            </div>
+        </li>
+        <li class="card">
+          <img src="images/img13.jpg" alt="Image 12" data-name="Dining">
+          <div class="details">
+              <div class="photographer">
+                  <i class="uil uil-camera"></i>
+                  <span>Dining</span>
+              </div>
+          </div>
+      </li>
+      <li class="card">
+        <img src="images/img14.jpg" alt="Image 13" data-name="Coffee">
+        <div class="details">
+            <div class="photographer">
+                <i class="uil uil-camera"></i>
+                <span>Coffee</span>
+            </div>
+        </div>
+    </li>
+    
+  
+    </ul>
+    </section>
+    <div class="modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="header-left">
+            <i class="uil uil-camera"></i>
+            <h2 class="modal-title">Image Title</h2>
+          </div>
+          <span class="close">&times;</span>
+        </div>
+        <img src="" alt="Image Preview" class="modal-image">
+        <div class="modal-actions">
+          <a href="" download class="download-button" id="modal-download-btn">
+            <i class="uil uil-import"></i> 
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
